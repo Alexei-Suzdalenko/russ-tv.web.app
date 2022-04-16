@@ -4,16 +4,17 @@ function setTitlePlayer(title, url){
     var Player = new Playerjs({id: 'player', file: url})
 }
 
-let urlWebSite = window.location.hash
-
-let h1TitlePage =  document.getElementById('titlePage')
-   
-switch(urlWebSite){
-    case 'pervyj_kanal' : ; break
-    default: setTitlePlayer(rep.index.title, rep.index.url); break
-
+let pageHash = ''
+function initPage(){
+    pageHash = window.location.hash.replace('#', '')
+    if(pageHash == '' || pageHash.length < 3){ pageHash = 'index';  }
+    setTitlePlayer(rep[pageHash][0], rep[pageHash][3])
 }
     
+    
+
+
 
     
 
+initPage()
