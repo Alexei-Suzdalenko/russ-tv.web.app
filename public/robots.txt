@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /*
+Disallow: /info
+Host: https://russ-tv.web.app
+Sitemap: https://russ-tv.web.app/sitemap.xml
