@@ -8,10 +8,12 @@ let pageHash = ''
 function initPage(){
     pageHash = window.location.hash.replace('#', '')
     if(pageHash == '' || pageHash.length < 3){ pageHash = 'index';  }
-    setTitlePlayer(rep[pageHash][0], rep[pageHash][3])
-    if(window.getAllComment){
-        getAllComment()
+    switch(pageHash){
+        case 'pervyj-kanal': player.innerHTML = `<iframe src="https://vk.com/video_ext.php?oid=-25380626&amp;id=456283287&amp;hash=7ad32d5858896985&amp;hd=2&amp;autoplay=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" allowfullscreen="" width="100%" height="472" frameborder="0"></iframe>`      
+              break
+        default: setTitlePlayer(rep[pageHash][0], rep[pageHash][3])
     }
+    if(window.getAllComment){ getAllComment() } 
 }
     
     

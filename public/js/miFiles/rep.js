@@ -1,3 +1,4 @@
+var player = document.getElementById('player')
 var titlePage = document.getElementById('titlePage')
 
 var rep = {
@@ -7,7 +8,7 @@ var rep = {
     ],
     'pervyj-kanal': [
         'Первый смотреть онлайн', 'pervyj.png', '#pervyj-kanal',
-        'https://gintna100.tulix.tv/gin_live/perviykanal/f9f72252b4a83f35bd078c4140ec8ee9/625c3f9e/index.m3u8'
+        ''
     ],
     'ntv-tv-online': [
         'НТВ онлайн', 'ntv.png', '#ntv-tv-online',

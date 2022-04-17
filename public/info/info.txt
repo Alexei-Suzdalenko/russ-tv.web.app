@@ -1,5 +1,0 @@
-yandex account web master -> desarrollo.web.cantabria.penagos@gmail.com
-google search console     -> loj.rus@gmail.com
-
-hosting                   -> desarrollo.web.cantabria.penagos@gmail.com
-firestore                 -> https://console.firebase.google.com/u/1/project/russ-tv/firestore/data/~2F
