@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+body{ font-family: 'Roboto', serif; background: white; color: grey;}
+header{
+    border-bottom: 1px solid rgb(216, 209, 209);
+}
+
+#titlePage, .description{ margin: 11px;}
+#titlePage:hover{cursor: pointer;}
+nav{ padding: 7px; }
+
+.aClassName{background: red;}
+section{ margin: 22px; }
+.itemName{font-size: 15px!important; color: black;}
+.itemMessage{display: block; font-size: 15px!important; color: black;}
+
+footer{
+    text-align: center;
+    color: grey;
+    display: block;
+    box-sizing: border-box;
+}
+
+.inputName, textarea{
+    width: 100%;
+    border: 1px solid grey;
+    margin-bottom: 11px;
+    padding: 4px;
+}
+#saveComment{padding: 4px;}
+#saveComment:hover{cursor: pointer; }
+
+.titleComment{
+    display: block; margin-bottom: 11px; color: black;
+}
+/*
+#comments{
+    background: blueviolet;
+}
+#listAllComments{
+    background: aqua;
+}
+*/
+#formInputComments{ float: right; }
+
+#listAllComments, #formInputComments{ width: 49%; display: inline-block;}
+.newItemMessage{
+    margin-bottom: 22px;
+}
+
+@media screen and (max-width: 680px) {
+    #listAllComments, #formInputComments{
+        width: 100%;
+    }
+   
+}
+
+.smallTime{
+    font-size: 11px; color: black; float: right;
+}

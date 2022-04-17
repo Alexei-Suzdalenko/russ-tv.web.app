@@ -2,27 +2,63 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="generator" content="Russian TV">
+  <meta name="author" content="Russian TV">
+  <meta name="robots" content="index,follow, all">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="apple-touch-icon" href="/img/icon/tv.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icon/tv.png">
+  <link rel="icon" href="/img/icon/tv.png" sizes="32x32">
+  <link rel="shortcut icon" href="/img/icon/tv.ico" type="image/vnd.microsoft.icon">
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>РУССКОЕ РОССИЙСКОЕ ТЕЛЕВИДЕНИЕ</title>
-  <meta name="description" content="РУССКОЕ РОССИЙСКОЕ ТЕЛЕВИДЕНИЕ, RUS TV, RUSSIAN TELEVISION, RUSSIAN TELEVIZOR, russian tv online" />
+  <title>РОССИЙСКОЕ ТЕЛЕВИДЕНИЕ Россия 1</title>
+  <meta name="description" content="путин хуйло, РУССКОЕ РОССИЙСКОЕ ТЕЛЕВИДЕНИЕ, RUS TV, RUSSIAN TELEVISION, RUSSIAN TELEVIZOR, russian tv online, Россия 1 смотреть онлайн, Россия 1 смотреть онлайн, НТВ онлайн, Россия 24 онлайн" />
   <meta name="yandex-verification" content="f38bc843ffc7aa91" />
   <meta name="google-site-verification" content="gEYpcgDyi_ydN8gEEdTUlTLNLJlVyEBjR7_XJzeCH2c" />
   <script src="/js/player/playerjs.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
 </head>
 <body>
-  <h1 id="titlePage">РУССКОЕ РОССИЙСКОЕ ТЕЛЕВИДЕНИЕ</h1>
-  <nav id="navigation"></nav>
-
-  <div id="player"></div>
-  <p>я люблю Россию и понимаю что в данный момент, Россия это подлая фашисткая страна, страна убивающая свой народ и людей в соседнем государстве. Имейте это ввиду..</p>
-  <p>Алексей</p>
+  <header><h1 id="titlePage">РУССКОЕ РОССИЙСКОЕ ТЕЛЕВИДЕНИЕ</h1></header>
+  <main>
+    <nav id="navigation"></nav>
+    <div id="player"></div>
+  <section>
+    <div id="comments">
+      <p class="titleComment">Комментарии</p>
+      <div id="listAllComments"></div>
+      <div id="formInputComments">
+        <textarea  placeholder="Комментарий" id="textAreaCom"></textarea>
+        <input class="inputName" type="text" placeholder="Имя" id="inputName">
+        <input type="button" value="Сохранить" id="saveComment">
+      </div>
+  
+    </div>
+  </section>
+  <footer>
+    <p>я люблю Россию и понимаю что в данный момент, Россия это подлая фашисткая страна, страна убивающая свой народ и людей в соседнем государстве. Имейте это ввиду..</p>
+    <p><a href="https://skrepetsky.web.app/" target="_blank">Семен Скрепецкий</a></p>
+  </footer><br><br><br>
+  
+  
 
 <!-- https://televizorus.com -->
   <script src="/js/miFiles/rep.js"></script>
   <script src="/js/miFiles/navigation.js"></script>
+
   <script src="/js/miFiles/whichPageIsThis.js"></script>
   <script src="/js/miFiles/yandex.js"></script>   
   <script src="/js/miFiles/google.js"></script>
+
+  <script src="/js/firebase/insertFirebase.js"></script>
+  <script src="/js/firebase/getComents.js"></script>
+  <script src="/js/firebase/inputComents.js"></script>
 </body>
 </html>
