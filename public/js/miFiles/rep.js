@@ -16,7 +16,7 @@ var rep = {
     ],
     'tv-rossia-24-online': [
         'Россия 24 онлайн','rossija_24.png','#tv-rossia-24-online',
-        'https://vgtrksmotrim.cdnvideo.ru/hls/russia_24/playlist_3.m3u8?md5=k-kHwW8NEXpL4iDVTtyEIg&e=1650155520'
+        'https://a787201472-s91412.cdn.ngenix.net/mdrm/CH_RUSSIA24/bw2000000/playlist.m3u8?utcstart=1650222000&version=2'
     ]
 
 }

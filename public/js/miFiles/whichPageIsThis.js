@@ -24,8 +24,5 @@ function initPage(){
 
 initPage()
 window.addEventListener('hashchange',  initPage)
-
 titlePage.addEventListener('click', function(){ window.location.reload() })
-
-
 setTimeout(() => { titlePage.innerHTML = 'Россия - фашистское государство, ведет террористическую войну'}, 600000)
