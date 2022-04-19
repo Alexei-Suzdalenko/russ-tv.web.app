@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
-a{text-decoration: none;}
-body{ font-family: 'Roboto', serif; background: white; color: grey;}
+a{text-decoration: none; color: grey;}
+body{ font-family: 'Roboto', serif; background: white; color: grey; text-align: center;}
 header{
     border-bottom: 1px solid rgb(216, 209, 209);
 }
@@ -14,11 +14,13 @@ section{ margin: 22px; }
 .itemName{font-size: 15px!important; color: black;}
 .itemMessage{display: block; font-size: 15px!important; color: black;}
 
-footer{
-    text-align: center;
-    color: grey;
-    display: block;
-    box-sizing: border-box;
+footer {
+    padding: 11px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 .inputName, textarea{

@@ -2,6 +2,7 @@ function setTitlePlayer(title, url, createPlayer){
     document.title = title
     titlePage.innerHTML = title
     if(createPlayer) var Player = new Playerjs({id: 'player', file: url})
+     
 }
 
 let pageHash = ''
